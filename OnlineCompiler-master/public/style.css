@@ -1,0 +1,39 @@
+body{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    background-color:black;
+    font-family: 'Courier Prime', monospace;
+}
+
+select{
+    margin-bottom: 50px;
+}
+
+.input{
+    padding: 50px;
+}
+
+.water{
+    background-color:blue;
+    color:aqua;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    margin-left: -10px;
+}
+
+.land{
+    background-color:blue;
+    color:aqua;
+    font-family: 'Courier Prime', monospace;
+    font-weight: bold;
+    margin-left: -250px;
+    margin-top: 50px
+}
+
+.input-submit{
+    width: 100px;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 8px;
+}

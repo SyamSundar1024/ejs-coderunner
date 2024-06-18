@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Compiler</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Online Compiler</h1>
+
+    <form action="\compile" method="post">  
+        <div class="input">
+            <label for="">Choose a Language:</label>
+
+            <select name="language" id="languages">
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="python3">Python</option>
+                <option value="java">Java</option>
+            </select>
+            <textarea class="water" name="code" id="" cols="140" rows="50" placeholder="Enter your Code"></textarea>
+            <textarea class="land" name="input" id="" cols="30" rows="10"></textarea>
+            <button class="input-submit" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
